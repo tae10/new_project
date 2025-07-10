@@ -1,0 +1,36 @@
+input[type="url"]{
+    width: calc(100% );
+}
+input[type=reset] {
+    border: 1px solid var(--color-bg-secondary);
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.8rem;
+    background-color: aqua;
+}
+input[type=submit] {
+    border: 1px solid var(--color-bg-secondary);
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.8rem;
+    background-color: brown;
+}
+:root {
+    --primary-btn-background: #000
+}
+
+.d-flex {
+    display: flex;
+}
+.gap-1 {
+    gap: 1rem
+}
+.gap-2 {
+    gap: 2rem;
+}
+.gpa-3 {
+    gap: 3rem;
+}
+.justify-center{
+    justify-content: center;
+}
