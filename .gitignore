@@ -1,0 +1,7 @@
+#ignore files
+.zip
+.hwp
+.xls
+
+# ignore foldes(\directories)
+node_modules/
